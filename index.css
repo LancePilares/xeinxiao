@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+
+}
+
+
+.header {
+  background-color:#09347a;
+  display: flex;
+  
+}
+
+nav {
+  margin-left: 63%;
+  margin-top: 45px;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 100%;
+  margin-rigth: 0%;
+  
+}
+
+a:hover{
+  color: black;
+}
+
+.logo{
+  color: #f5c76d;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+
+.row:{
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+  
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width:33%;
+  padding: 10px;
+  height: 450px; /* Should be removed. Only for demonstration */
+}
+
+
+
+h2 {
+  text-align: center;
+}
+
+img {
+  width:350px;
+  margin-left: 90px;
+}
+
+img {
+  width:300px;
+  height: 300px;
+}
+a{
+  padding-left: 50px;
+
+}
+
+
